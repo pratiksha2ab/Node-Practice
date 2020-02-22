@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+  }
+  p {
+    font-family: Verdana, sans-serif;
+    margin: 0px 12px 0px 12px;
+    text-align: justify;
+  }
+  .slide {
+    display: none;
+  }
+  img {
+    vertical-align: middle;
+  }
+  .wrapper {
+    background-color: aquamarine;
+  }
+  .basic-info {
+    margin: 0 auto;
+  }
+  .round-image {
+    border-radius: 70%;
+    background-color: brown;
+    width: 100px;
+    margin-left: 46%;
+  }
+  h3 {
+    font-family: "Kalam";
+  }
+  .data {
+    text-align: center;
+  }
+  .main {
+    background-color: darkcyan;
+  }
+  .sidebar {
+    background-color: crimson;
+    width: 15%;
+    margin-left: 15%;
+    display: inline-block;
+    box-shadow: 3px 5px rgb(58, 1, 1);
+  }
+  .display {
+    background-color: darkgreen;
+    width: 70%;
+    float: right;
+    display: inline-block;
+  }
+  nav {
+    margin-left: 20px;
+    background-color: crimson;
+  }
+  a {
+    text-decoration: none;
+    padding: 0px 12px 0px 12px;
+    display: inline-block;
+    font-family: "Acme";
+    font-size: 27px;
+    color: white;
+  }
+  a:hover {
+    background: rgb(196, 124, 30);
+    text-decoration: none;
+  }
+  .slide-wrapper {
+    background-color: chocolate;
+    width: 90%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .mySlides {
+    display: none;
+  }
+  img {
+    vertical-align: middle;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .holder{
+    width: 100%;
+  }
+
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  .f-image{
+    border-radius: 50%;
+    width: 100px;
+    background-color: red;
+  }
+  .friend{
+    display: inline-block;
+    margin: 20px 15px 10px 15px;
+  }
+  .friends{
+    margin-left: 40px;
+  }
